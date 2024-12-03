@@ -1,0 +1,82 @@
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #b00909;
+            margin: 0;
+            padding: 20px;
+            color: #000000;
+        }
+        h1 {
+            text-align: center;
+            color: #19c51f;
+            margin-bottom: 20px;
+        }
+        .unidad {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgb(0, 0, 0);
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .pregunta {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #91a886;
+            transition: background 0.3s;
+        }
+        .pregunta:hover {
+            background-color: #b5b9b9;
+        }
+        .opciones label {
+            display: block;
+            margin: 5px 0;
+            padding: 10px;
+            border: 2px solid #000000;
+            border-radius: 5px;
+            transition: background 0.3s, border 0.3s;
+        }
+        .opciones label:hover {
+            background: #e8f5e9;
+            border-color: #0ee519;
+        }
+        .opciones input {
+            margin-right: 10px;
+        }
+        .enviar {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #fe5000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #000000;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: center;
+            color: #000000;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            button {
+                width: 100%;
+            }
+        }
